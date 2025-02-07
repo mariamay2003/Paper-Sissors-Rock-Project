@@ -35,21 +35,27 @@
     </header>
     <section>
         <div class="result">
-            <div class="score"></div>
+            <h1>THE <br>RESULT<br> IS</h1>
+            <div class="score">
+                <h2>SCORE</h2>
+                <div class="counter" id="score-count">0</div>
+            </div>
+            <div id="game-result"></div>
+            <button id="play-again" onclick="playAgain()">Play Again</button>
         </div>
     </section>
     <main>
         <div class="main">
             <div class="main-content">
                 <!-- <img src="./images/bg-triangle.svg" alt="triangle" id="triangle"> -->
-                <div class="content" id="cont1">
-                    <img src="./images/icon-paper.svg" alt="paper-icon">
+                <div class="content" id="paper" onclick="playGame('paper')">
+                    <img src="./images/icon-paper.svg" alt="paper-icon" title="paper">
                 </div>
-                <div class="content" id="cont2">
-                    <img src="./images/icon-rock.svg" alt="rock-icon">
+                <div class="content" id="rock" onclick="playGame('rock')">
+                    <img src="./images/icon-rock.svg" alt="rock-icon" title="rock">
                 </div>
-                <div class="content" id="cont3">
-                    <img src="./images/icon-scissors.svg" alt="scissors-icon">
+                <div class="content" id="scissors" onclick="playGame('scissors')">
+                    <img src="./images/icon-scissors.svg" alt="scissors-icon" title="scissors">
                 </div>
             </div>
         </div>

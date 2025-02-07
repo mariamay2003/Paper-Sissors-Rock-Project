@@ -41,7 +41,6 @@ header nav {
 
 .modal {
     display: none;
-    /* مخفي في البداية */
     position: fixed;
     z-index: 1000;
     left: 0;
@@ -108,8 +107,8 @@ header nav {
 }
 
 .logo {
-    width: 18em;
-    height: 18em;
+    width: 19em;
+    height: 19em;
     position: relative;
     top: -50px;
     left: -35px;
@@ -126,8 +125,8 @@ header nav {
     background-image: url('./images/bg-triangle.svg');
     position: relative;
     background-repeat: no-repeat;
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,23 +153,163 @@ header nav {
     cursor: pointer;
 }
 
-#cont1 {
+#paper {
     position: absolute;
     top: -20px;
     left: -30px;
     border: solid #4865f4 15px;
 }
 
-#cont2 {
+#rock {
     position: absolute;
     top: -20px;
-    right: 70px;
+    right: 20px;
     border: solid #ec9e0e 15px;
 }
 
-#cont3 {
+#scissors {
     position: absolute;
-    bottom: 15px;
-    right: 200px;
+    bottom: 40px;
+    right: 140px;
     border: solid #dc2e4e 15px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -180px;
+}
+
+div.result {
+    width: 600px;
+    height: 200px;
+    border: #f0f8ff 6px solid;
+    position: relative;
+    top: -270px;
+    margin-bottom: 0px;
+    border-radius: 30px;
+}
+
+div.result h1 {
+    font-size: 50px;
+    color: #f0f8ff;
+    position: absolute;
+    top: 5px;
+    left: 40px;
+}
+
+div.result div.score {
+    background-color: #f0f8ff;
+    color: #1a2748;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+div.counter {
+    font-size: 70px;
+    font-weight: 900;
+}
+
+#game-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 220px;
+    flex-direction: row;
+}
+
+#play-again {
+    display: none;
+    position: fixed;
+    bottom: 180px;
+    right: 700px;
+    background-color: #1a2748;
+    color: #f0f8ff;
+    font-size: 20px;
+    border: 3px solid #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+#play-again:hover {
+    background: #f0f8ff;
+    color: #1a2748;
+    transform: scale(1.1);
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.3);
+}
+
+.choices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 100px;
+    width: 100%;
+}
+
+.user-choice {
+    background-color: #f0f8ff;
+    border: solid #dc2e4e 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.user-choice img {
+    margin-top: 32px;
+    width: 60px;
+}
+
+.user-choice p {
+    position: absolute;
+    top: -70px;
+    color: #f0f8ff;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    right: 460px;
+}
+
+p#result-tex {
+    color: #f0f8ff;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
+
+.computer-choice {
+    background-color: #f0f8ff;
+    border: solid #4865f4 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.computer-choice img {
+    margin-top: 32px;
+    width: 60px;
+}
+
+.computer-choice p {
+    position: absolute;
+    top: -105px;
+    color: #f0f8ff;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
 }
