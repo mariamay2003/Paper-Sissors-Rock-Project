@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Arima:wght@100..700&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="./images/logo.png" alt="logo" class="logo">
+            <button id="rules-btn">Rules</button>
+
+            <div id="rules-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Game Rules</h2>
+                    <ul>
+                        <li>🪨 Rock beats Scissors</li>
+                        <li>📄 Paper beats Rock</li>
+                        <li>✂️ Scissors beat Paper</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="result">
+            <div class="score"></div>
+        </div>
+    </section>
+    <main>
+        <div class="main">
+            <div class="main-content">
+                <!-- <img src="./images/bg-triangle.svg" alt="triangle" id="triangle"> -->
+                <div class="content" id="cont1">
+                    <img src="./images/icon-paper.svg" alt="paper-icon">
+                </div>
+                <div class="content" id="cont2">
+                    <img src="./images/icon-rock.svg" alt="rock-icon">
+                </div>
+                <div class="content" id="cont3">
+                    <img src="./images/icon-scissors.svg" alt="scissors-icon">
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
