@@ -6,7 +6,7 @@ This is a **Rock, Paper, Scissors** game built using **HTML, CSS, and JavaScript
 ---
 
 ## Live Demo 🚀
-🔗 [Play the Game](#) 
+http://127.0.0.1:5500/index.html🔗 [Play the Game](#) 
 
 ---
 
