@@ -5,11 +5,6 @@ This is a **Rock, Paper, Scissors** game built using **HTML, CSS, and JavaScript
 
 ---
 
-## Live Demo 🚀
-http://127.0.0.1:5500/index.html🔗 [Play the Game](#) 
-
----
-
 ## Features ✨
 ✅ **Interactive Gameplay** - Users can pick Rock, Paper, or Scissors and play against the computer.  
 ✅ **Score Tracking** - Keeps track of the player's score throughout the session.  
